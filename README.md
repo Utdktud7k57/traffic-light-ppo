@@ -29,11 +29,11 @@ The PPO agent learns an optimal switching strategy by interacting with the envir
 
 ## 📂 Project Structure
 traffic-light-ppo/
-├── traffic_env.py       # Custom traffic environment
-├── train.py             # Train PPO agent
-├── simulate.py          # Run trained model and visualize results
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
+- ├── traffic_env.py       # Custom traffic environment
+- ├── train.py             # Train PPO agent
+- ├── simulate.py          # Run trained model and visualize results
+- ├── requirements.txt     # Python dependencies
+- └── README.md            # Project documentation
 
 
 ---
@@ -47,18 +47,18 @@ cd traffic-light-ppo
 Install dependencies:
 
 - pip install -r requirements.txt
-▶️ Usage
+## ▶️ Usage
 - Train the model
   python train.py
 -Simulate & visualize results
   python simulate.py
-##📊 Results
--Policy Comparison
+## 📊 Results
+- Policy Comparison
  Trained PPO policy achieves significantly higher rewards than a random policy.
- Queue Lengths Over Time
+ - Queue Lengths Over Time
  The PPO agent keeps queue lengths lower over the simulation.
-##📌 Requirements
--See requirements.txt:
+## 📌 Requirements
+- See requirements.txt:
 nginx
 gym
 numpy
@@ -69,6 +69,6 @@ stable-baselines3
 
 
 
--Author 
--Tejaswini Samudrala
--GitHub: https://github.com/Utdktud7k57
+- Author 
+- Tejaswini Samudrala
+- GitHub: https://github.com/Utdktud7k57
