@@ -69,6 +69,6 @@ stable-baselines3
 
 
 
-- Author 
+##  Author 
 - Tejaswini Samudrala
 - GitHub: https://github.com/Utdktud7k57
