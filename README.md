@@ -29,12 +29,13 @@ The PPO agent learns an optimal switching strategy by interacting with the envir
 
 ## 📂 Project Structure
 traffic-light-ppo/
-│
-├── traffic_env.py # Custom traffic environment
-├── train.py # Train PPO agent
-├── simulate.py # Run trained model and visualize results
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+|
+|
+├── traffic_env.py        # Custom traffic environment
+├── train.py              # Train PPO agent
+├── simulate.py           # Run trained model and visualize results
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
 
 
 ---
