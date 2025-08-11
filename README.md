@@ -58,6 +58,13 @@ Install dependencies:
  - Queue Lengths Over Time
  The PPO agent keeps queue lengths lower over the simulation.
 
+### Queue Lengths Over Time
+![Queue Lengths Over Time](images/queue_plot.png)
+
+### Policy Comparison
+![Policy Comparison](images/policy_comparison.png)
+
+
 
 ## 📌 Requirements
 - See requirements.txt:
