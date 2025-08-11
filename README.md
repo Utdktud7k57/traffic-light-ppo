@@ -55,14 +55,15 @@ Install dependencies:
 ## 📊 Results
 - Policy Comparison
  Trained PPO policy achieves significantly higher rewards than a random policy.
+### Policy Comparison
+![Policy Comparison](policy_comparison.png)
+
  - Queue Lengths Over Time
  The PPO agent keeps queue lengths lower over the simulation.
-
 ### Queue Lengths Over Time
-![Queue Lengths Over Time](images/queue_plot.png)
+![Queue Lengths Over Time](queue_plot.png)
 
-### Policy Comparison
-![Policy Comparison](images/policy_comparison.png)
+
 
 
 
