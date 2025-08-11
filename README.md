@@ -36,52 +36,46 @@ traffic-light-ppo/
 - └── README.md            # Project documentation
 
 
----
-
-## 🛠 Installation
-
-Clone this repository:
-
+## 🛠 Installation & Setup
+### Clone this repository
 git clone https://github.com/Utdktud7k57/traffic-light-ppo.git
 cd traffic-light-ppo
-Install dependencies:
+### Install dependencies
+pip install -r requirements.txt
+### Train the PPO Agent
+python train.py
+### Run Simulation & Visualization
+python simulate.py
 
-- pip install -r requirements.txt
-## ▶️ Usage
-- Train the model
-  python train.py
--Simulate & visualize results
-  python simulate.py
 ## 📊 Results
 - Policy Comparison
  Trained PPO policy achieves significantly higher rewards than a random policy.
  - Queue Lengths Over Time
  The PPO agent keeps queue lengths lower over the simulation.
 
-## Policy Comparison
+### Policy Comparison
 ![Policy Comparison](Policy_comparision.png)
 
-## Queue Lengths Over Time
+### Queue Lengths Over Time
 ![Queue Lengths Over Time](queuelengths.png)
 
-## Traffic Light Actions Over Time
+### Traffic Light Actions Over Time
 ![Traffic Light Actions Over Time](trafficlightactionsovertime.png)
 
 
+## 🎯 Key Features
+- Custom-built traffic simulation environment using OpenAI Gym.
+- Agent trained with Proximal Policy Optimization (PPO).
+- Clear performance comparison with a random policy baseline.
+- Visual analytics for queues and actions.
 
+## 🏆 Conclusion
+This project demonstrates how reinforcement learning can optimize traffic light control, reducing congestion and improving flow efficiency. The PPO agent learned strategies that outperformed a random baseline, showcasing the potential of AI-driven traffic systems.
 
-
-## 📌 Requirements
-- See requirements.txt:
-nginx
-gym
-numpy
-matplotlib
-stable-baselines3
-
-
-
-
+## Future Improvements
+- Add multiple intersections for more realistic simulation.
+- Include varying traffic patterns (rush hour, low traffic, etc.).
+- Deploy as a live simulation in a web app.
 
 ##  Author 
 - Tejaswini Samudrala
